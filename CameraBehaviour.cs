@@ -15,8 +15,8 @@ public class CameraBehaviour : MonoBehaviour
     public Transform player1;
     public Transform player2;
 
-    public float min = -5;
-    public float max = 5;
+    public float min = -5; //left most x value of the allowed view field
+    public float max = 5; //right most x value of the allowed view field
 
     private float myMin;
     private float myMax;
@@ -65,6 +65,7 @@ public class CameraBehaviour : MonoBehaviour
         //if the camera won't be zooming and screensize won't be changing, its betters to find these values only once in the start function
         //myMin = min + ((Camera.main.orthographicSize * Screen.width) / Screen.height);
         //myMax = max - ((Camera.main.orthographicSize * Screen.width) / Screen.height);
+        
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, myMin, myMax), transform.position.y, transform.position.z);
 
         if (state == CameraState.ViewP1)
