@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerControl : MonoBehaviour {
 
-    public int PlayerNumber = 1; 
+    public int PlayerNumber = 0; 
     Transform enemy;
 
     Rigidbody2D rig2d;
@@ -11,7 +11,7 @@ public class PlayerControl : MonoBehaviour {
 
     float horizontal;
     float vertical;
-    public float maxSpeed = 25;
+    public float maxSpeed = 10;
     bool move;
     Vector3 movement;
 
@@ -79,7 +79,8 @@ public class PlayerControl : MonoBehaviour {
             attack[0] = true; // attack animation is played
             attacktimer[0] = 0; // attack time
             timesPressed[0]++; // number of times pressed
-            
+            rig2d.velocity = Vector3.zero; // stop movement
+            movement = Vector3.zero; // stop movement
 
         }
         if (attack[0]) 
