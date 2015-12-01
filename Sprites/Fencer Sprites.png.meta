@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: 98bd7d0eee4771a40ab766e511509bb8
+timeCreated: 1448227385
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Fencer Sprites_0
+    21300002: Fencer Sprites_1
+    21300004: Fencer Sprites_2
+    21300006: Fencer Sprites_3
+    21300008: Fencer Sprites_4
+    21300010: Fencer Sprites_5
+    21300012: Fencer Sprites_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Fencer Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 523
+        width: 208
+        height: 176
+      alignment: 9
+      pivot: {x: .25120604, y: .536003828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fencer Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 518
+        width: 199
+        height: 181
+      alignment: 9
+      pivot: {x: .213418782, y: .535009205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fencer Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 508
+        width: 199
+        height: 182
+      alignment: 9
+      pivot: {x: .218725771, y: .552224994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fencer Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 287
+        width: 208
+        height: 176
+      alignment: 9
+      pivot: {x: .246128529, y: .530002952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fencer Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 291
+        width: 231
+        height: 162
+      alignment: 9
+      pivot: {x: .271405756, y: .571710825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fencer Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 290
+        width: 288
+        height: 141
+      alignment: 9
+      pivot: {x: .283645004, y: .582391202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fencer Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 45
+        width: 194
+        height: 191
+      alignment: 9
+      pivot: {x: .21147643, y: .549764156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
